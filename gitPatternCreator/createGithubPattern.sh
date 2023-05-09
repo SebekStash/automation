@@ -3,7 +3,7 @@
 LOGSFILE="./logs.log"
 DAY=$(date +%A)
 FULLDATE=$(date)
-UPDATEGIT=$(git add logs.log;git commit -m "Autocommit date: $FULLDATE";git push)
+UPDATEGIT=$(git add $LOGSFILE;git commit -m "Autocommit. Date: $FULLDATE";git push)
 
 if [ "$DAY" == "Tuesday" ];then
     echo $FULLDATE >> $LOGSFILE
