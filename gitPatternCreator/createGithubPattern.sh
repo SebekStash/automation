@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOGSFILE="./logs.log"
+LOGSFILE="/home/sebek/repositories/automation/gitPatternCreator/logs.log"
 DAY=$(date +%A)
 FULLDATE=$(date)
 
